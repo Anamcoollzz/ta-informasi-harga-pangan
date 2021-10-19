@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informasi Harga Pangan</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-5.12/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">
+                    Informasi Harga Pangan
+                </h2>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="">Komoditas</label>
+                                <select class="form-control" name="" id="">
+                                    <option value="">option 1</option>
+                                    <option value="">option 2</option>
+                                    <option value="">option 3</option>
+                                    <option value="">option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+
+                            <div class="form-group">
+                                <label for="">Jenis Pasar</label>
+                                <select class="form-control" name="" id="">
+                                    <option value="">option 1</option>
+                                    <option value="">option 2</option>
+                                    <option value="">option 3</option>
+                                    <option value="">option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="">Jenis Informasi Harga</label>
+                                <select class="form-control" name="" id="">
+                                    <option value="">option 1</option>
+                                    <option value="">option 2</option>
+                                    <option value="">option 3</option>
+                                    <option value="">option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <!-- Date Picker Input -->
+                            <div class="form-group mb-4">
+                                <label for="">Tanggal</label>
+                                <div class="datepicker date input-group p-0">
+                                    <input type="text" placeholder="Tanggal" class="form-control py-4 px-4"
+                                        id="reservationDate">
+                                    <div class="input-group-append"><span class="input-group-text px-4"><i
+                                                class="fa fa-calendar"></i></span></div>
+                                </div>
+                            </div>
+                            <!-- DEnd ate Picker Input -->
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="">Periode Perbandingan</label>
+                                <select class="form-control" name="" id="">
+                                    <option value="">option 1</option>
+                                    <option value="">option 2</option>
+                                    <option value="">option 3</option>
+                                    <option value="">option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="form-group">
+                                <button class="btn btn-primary mt-4 px-4">
+                                    <i class="fa fa-arrow-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="peta"></div>
+            </div>
+            <div class="col-md-12 mt-3" style="display: flex; justify-content: center;">
+                <div style="display: flex; width: 80%;">
+                    <div style="">
+                        <h4>
+                            Harga Rata-Rata dan Perubahan
+                            <small>10 Maret 2020</small>
+                        </h4>
+                    </div>
+                    <div style=" padding-left: 20px;">
+                        <div class="form-group">
+                            <select class="form-control" name="" id="">
+                                <option value="">option 1</option>
+                                <option value="">option 2</option>
+                                <option value="">option 3</option>
+                                <option value="">option 4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style=" padding-left: 20px;">
+                        <div class="form-group">
+                            <select class="form-control" name="" id="">
+                                <option value="">option 1</option>
+                                <option value="">option 2</option>
+                                <option value="">option 3</option>
+                                <option value="">option 4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style=" padding-left: 20px;">
+                        <i class="fa fa-arrow-up"></i>
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script> -->
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js">
+        </script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script>
+            $(function () {
+
+                // INITIALIZE DATEPICKER PLUGIN
+                $('.datepicker').datepicker({
+                    clearBtn: true,
+                    format: "dd/mm/yyyy"
+                });
+
+            });
+        </script>
+</body>
+
+</html>

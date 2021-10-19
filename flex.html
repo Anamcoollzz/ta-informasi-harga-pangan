@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container1{
+            display: flex;
+            flex-direction: row;
+            border: 1px solid black;
+            height: 100px;
+            width: 80%;
+            justify-content: center;
+        }
+        .box {
+            flex: 1;
+        }
+        .kuning {
+            background-color: yellow;
+        }
+        .merah {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <div class="container1">
+            <div class="box kuning"></div>
+            <div class="box merah"></div>
+        </div>
+    </div>
+</body>
+</html>
